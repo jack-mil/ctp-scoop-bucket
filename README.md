@@ -1,42 +1,48 @@
-# Scoop Bucket Template
+<h3 align="center">
+    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+    Catppuccin [tools] for <a href="https://scoop.sh/">Scoop</a>
+    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+</h3>
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+<p align="center">
+    <a href="https://github.com/catppuccin/scoop-bucket/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/scoop-bucket?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/scoop-bucket/issues"><img src="https://img.shields.io/github/issues/catppuccin/scoop-bucket?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/scoop-bucket/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/scoop-bucket?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+</p>
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
-## How do I use this template?
+## Usage
 
-1. Generate your own copy of this repository with the "Use this template"
-   button.
-2. Allow all GitHub Actions:
-   - Navigate to `Settings` - `Actions` - `General` - `Actions permissions`.
-   - Select `Allow all actions and reusable workflows`.
-   - Then `Save`.
-3. Allow writing to the repository from within GitHub Actions:
-   - Navigate to `Settings` - `Actions` - `General` - `Workflow permissions`.
-   - Select `Read and write permissions`.
-   - Then `Save`.
-4. Document the bucket in `README.md`.
-5. Replace the placeholder repository string in `bin/auto-pr.ps1`.
-6. Create new manifests by copying `bucket/app-name.json.template` to
-   `bucket/<app-name>.json`.
-7. Commit and push changes.
-8. If you'd like your bucket to be indexed on `https://scoop.sh`, add the
-   topic `scoop-bucket` to your repository.
+Please refer to the manifest's respective repository/README for usage notes.
 
-## How do I install these manifests?
+To get started with `scoop`, check the [Scoop.sh website](https://scoop.sh/) for installation instructions.
 
-After manifests have been committed and pushed, run the following:
+The manifests in this community bucket can be found [here](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2Fcatppuccin%2Fscoop-bucket%22)
 
-```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
-scoop install <bucketname>/<manifestname>
-```
+<!-- The FAQ section is optional. Remove if needed.-->
+## 🙋 FAQ
 
-## How do I contribute new manifests?
+- Q: **_"How do I add this bucket?"_**
+  - A:
+    ```
+    scoop bucket add catppuccin https://github.com/catppuccin/scoop-bucket
+    ```
 
-To make a new manifest contribution, please read the [Contributing
-Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
-and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
-wiki page.
+## 💝 Thanks to
+
+- [jack-mil](https://github.com/jack-mil)
+
+&nbsp;
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
+
+<p align="center">
+    Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+</p>
+
+<p align="center">
+    <a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+</p>
