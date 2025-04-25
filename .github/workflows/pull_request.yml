@@ -1,6 +1,7 @@
 on:
   pull_request_target:
     types: [opened]
+    paths: ['bucket/*.json']
 name: Pull Requests
 jobs:
   pullRequestHandler:
