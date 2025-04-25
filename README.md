@@ -14,11 +14,15 @@
 
 ## Usage
 
-Please refer to the manifest's respective repository/README for usage notes.
+Community Scoop bucket for Catppuccin tools. Currently contains manifests for:
+- [Whiskers](https://github.com/catppuccin/whiskers)
+- [Catwalk](https://github.com/catppuccin/catwalk)
+
+Please refer to the apps's respective repository/README for usage notes.
 
 To get started with `scoop`, check the [Scoop.sh website](https://scoop.sh/) for installation instructions.
 
-The manifests in this community bucket can be found [here](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2Fcatppuccin%2Fscoop-bucket%22)
+The manifests in this community bucket can be found in the [apps list](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2Fcatppuccin%2Fscoop-bucket%22)
 
 <!-- The FAQ section is optional. Remove if needed.-->
 ## 🙋 FAQ
